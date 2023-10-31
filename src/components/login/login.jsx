@@ -26,7 +26,6 @@ export default function Login() {
     function submitHandler(event) {
         event.preventDefault()
         dispatch(loginAction(user))
-        
     }
 
 

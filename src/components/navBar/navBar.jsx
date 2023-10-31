@@ -22,7 +22,7 @@ export default function NavBar() {
     const dispatch = useDispatch()
 
     const clickHandler = () => {
-        dispatch(logout)
+        dispatch(logout())
     }
 
     const [responsive, setResponsive] = useState(false)

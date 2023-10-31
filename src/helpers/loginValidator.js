@@ -2,6 +2,10 @@ const LoginValid = (input) => {
 
     let errors = {}
 
+    if(!input.username.length){
+        errors.username = 'El usuario no puede estar vacio'
+    }
+
     if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(input.email)) {
         errors.email = 'Debe de ser un email'
     }
