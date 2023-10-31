@@ -12,7 +12,7 @@ import './index.css'
 import axios from 'axios';
 
 //Esto te permite no tener que repetir el url cada vez que queres hacer una peticion, solo pones la Ruta
-axios.defaults.baseURL = 'https://pi-back-production-9071.up.railway.app'
+axios.defaults.baseURL = 'https://pi-back.vercel.app'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
