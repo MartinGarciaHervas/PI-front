@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useDispatch } from 'react-redux'
 
 //Actions
-import { loginAction } from '../../Redux/Actions/actions'
+import { loginAction } from '../../Redux/Actions/actions.js'
 
 //Estilos
 import style from './login.module.css'
