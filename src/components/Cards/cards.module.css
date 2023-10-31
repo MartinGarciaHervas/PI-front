@@ -1,0 +1,15 @@
+/* .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.875em;
+    margin: 0px 0px 0px 0px;
+    width: 100vw;
+    padding-top: 50px;
+} */
+
+.cards {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

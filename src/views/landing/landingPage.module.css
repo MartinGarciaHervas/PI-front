@@ -1,0 +1,40 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../assets/34254-espacio.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.gif{
+    background-image: url(../../assets/YjjG.gif);
+    width: 17em;
+    height: 17em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 3.125em;
+}
+
+.welcome {
+    font-size: 6.25em;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .welcome {
+        font-size: 4em;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.subtext {
+    margin: 0;
+    padding-bottom: 2.5em;
+}

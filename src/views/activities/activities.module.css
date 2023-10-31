@@ -1,0 +1,100 @@
+.container{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: calc(100vh - 100px);
+    background-image: url(../../assets/481285.jpg);
+    background-size: cover;
+}
+
+.activitiesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+}
+
+.activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.25em;
+    background-color: rgba(84, 84, 84, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 19em;
+    margin: 20px 20px 20px 20px;
+}
+
+.activityNameContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 19em;
+    border-radius: 20px;
+    background-color: rgba(0, 110, 130, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+}
+
+.deleteButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.4);
+    width: 25px;
+    height: 50px;
+    border-radius: 0 20px 20px 0;
+}
+
+.editButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.4);
+    width: 25px;
+    height: 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+.countriesContainer{
+    border-top: grey solid 2px;
+    width: 15em;
+}
+
+.x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.4);
+    margin-right: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px 0 0 20px;
+}
+
+.countryNameContainer{
+    width: 15em;
+    height: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(0, 110, 130, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+}
+
+.countryNameContainer:hover{
+    transform: scale(1.05);
+    transition-duration: 0.1s;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+  }

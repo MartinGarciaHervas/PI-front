@@ -1,0 +1,43 @@
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../assets/481285.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    background-color: rgba(84, 84, 84, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.input{
+    margin: 10px 0 10px 0;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.textContainer{
+    width: 400px;
+    height: fit-content;
+    background-color: rgba(0, 110, 130, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}

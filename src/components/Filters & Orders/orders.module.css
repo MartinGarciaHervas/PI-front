@@ -1,0 +1,58 @@
+.filtros{
+    display: flex;
+}
+
+.order2{
+    display: flex;
+    width: 200px;
+    margin: 10px 0 0 0;
+    animation: slideRight 1s;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.order3{
+    display: flex;
+    width: 200px;
+    margin: 10px 0 0 0;
+    animation: slideLeft 0.2s;
+    opacity: 0;
+    transform: translateX(-200%);
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width:100vw;
+}
+
+.button {
+    height: 60px;
+    opacity: 1;
+    z-index: 100;
+    width: 85px;
+}
+
+.titles {
+    margin: 0;
+}

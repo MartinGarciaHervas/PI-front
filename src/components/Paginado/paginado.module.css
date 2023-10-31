@@ -1,0 +1,44 @@
+.container {
+    position: absolute;
+    width: 100vw;
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: rgba(84, 84, 84, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin-top: 3.6875em;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.9em;
+    width: 1.9em;
+    opacity: 1;
+    z-index: 100;
+}
+
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.75em;
+    width: 1.75em;
+    background-color: white;
+    color: black;
+}
+
+.page{
+    margin: 0 10px 0 10px;
+}

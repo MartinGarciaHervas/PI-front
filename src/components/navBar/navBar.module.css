@@ -1,0 +1,55 @@
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100vw;
+    z-index: 100;
+    overflow: hidden;
+    height: 100px;
+    background: linear-gradient(rgba(0, 110, 130, 0.5),rgba(0, 110, 130, 0.5), black);
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.responsiveContainer{
+    position: absolute;
+    width: 100vw;
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.hamburguer{
+    width: 50px;
+}
+
+.hamburguerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25vw;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filterContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 25vw
+}
