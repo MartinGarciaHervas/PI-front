@@ -12,7 +12,6 @@ import Orders from "../Filters & Orders/Orders"
 //Estilos
 import style from './navBar.module.css'
 import { useState } from "react"
-import signout from "../firebase/signout"
 
 export default function NavBar() {
 
