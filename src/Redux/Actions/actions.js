@@ -190,9 +190,20 @@ export const logout = () => {
 }
 
 export const loginAction = (user) => {
-    return {
-        type: LOGIN_USER,
-        payload: user
+    return async (dispatch) => {
+        try {
+            const {data} = await axios(`/user/?email=${user.email}&password=${user.password}`);
+            data?alert(`Welcome Back ${data[1].username}!!!`):alert(`User not found :(. Register!!`)
+            return dispatch({
+                type: LOGIN_USER,
+                payload: {
+                    ...data[1],
+                    access: data[0]
+                }
+            })
+        } catch (error) {
+            alert(error.message)
+        }
     }
 }
 
